@@ -1,0 +1,17 @@
+{
+  "com.liferay.client.extension.type.configuration.CETConfiguration~liferay-7-4-sample-client-extension-typescript-global-js" : {
+    ":configurator:policy" : "force",
+    "baseURL" : "${portalURL}/o/liferay-7-4-sample-client-extension-typescript-global-js",
+    "buildTimestamp" : 1770954188695,
+    "description" : "",
+    "dxp.lxc.liferay.com.virtualInstanceId" : "default",
+    "name" : "Liferay 7.4 Sample Typescript Global JS Client Extension",
+    "projectId" : "liferay74sampleclientextensiontypescriptglobaljs",
+    "projectName" : "liferay-7-4-sample-client-extension-typescript-global-js",
+    "properties" : [ ],
+    "sourceCodeURL" : "",
+    "type" : "globalJS",
+    "typeSettings" : [ "url=index.dc1aa082dd1c7f963880.js", "scriptLocation=head", "scope=company" ],
+    "webContextPath" : "/liferay-7-4-sample-client-extension-typescript-global-js"
+  }
+}

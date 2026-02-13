@@ -1,0 +1,9 @@
+assemble:
+   -   from: build/static
+       into: static
+liferay-7-4-sample-client-extension-typescript-global-js:
+   name: Liferay 7.4 Sample Typescript Global JS Client Extension
+   scope: company
+   scriptLocation: head
+   type: globalJS
+   url: index.*.js

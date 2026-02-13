@@ -1,0 +1,1 @@
+Liferay.on("allPortletsReady",()=>{alert("hi")});

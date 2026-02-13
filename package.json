@@ -1,0 +1,28 @@
+{
+  "name": "liferay-7-4-sample-client-extension-typescript-global-js",
+  "version": "1.0.0",
+  "description": "A sample Typescript global client extension for Liferay 7.4",
+  "main": "index.ts",
+  "repository": "https://github.com/xtivia/liferay-7-4-sample-client-extension-typescript-global-js",
+  "author": "Lawrence Behar @ XTIVIA",
+  "license": "MIT",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.0.0",
+    "eslint-webpack-plugin": "^5.0.2",
+    "ts-loader": "^9.5.4",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.55.0",
+    "webpack": "^5.105.2",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.3"
+  },
+  "dependencies": {
+    "@liferay/js-api": "^0.6.2"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack serve",
+    "watch": "tsc --watch"
+  }
+}
